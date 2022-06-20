@@ -1,5 +1,5 @@
 homepage: "https://adless.net"
 documentation: "https://adless.net/get-started"
 versions:
-  - sha: 3dcbfe69418bac8fc614c68f9331d076f6cf8ac8
+  - sha: ad02d7a1711d935be13ee3b9f429689928e2101d
     changeNotes: Initial release.
