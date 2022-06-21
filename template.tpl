@@ -46,7 +46,7 @@ ___TEMPLATE_PARAMETERS___
         ]
       }
     ],
-    "help": "You can find your earner ID at adless.net/earnings",
+    "help": "You can find your earner ID at adless.net/earnings.",
     "notSetText": "Earner ID is required",
     "alwaysInSummary": false
   },
@@ -61,24 +61,24 @@ ___TEMPLATE_PARAMETERS___
           "name": "id",
           "displayName": "Service ID",
           "simpleValueType": true,
-          "help": "Service ID without quotes",
+          "help": "Service ID without quotes.",
           "notSetText": "NO_ADS",
           "valueHint": "NO_ADS"
         },
         "isUnique": true
       }
     ],
-    "help": "You must specify at least on service you offer to receive any compensation from Adless. You can leave it empty to test your integration.",
+    "help": "You must offer at least one service to receive any compensation from Adless. You may leave this field empty on pages where no services are offered or to test your integration.",
     "alwaysInSummary": true
   },
   {
     "type": "TEXT",
     "name": "configuration",
-    "displayName": "Additional Configuration",
+    "displayName": "Additional configuration",
     "simpleValueType": true,
     "lineCount": 10,
     "valueHint": "{ \"paywall\": true  }",
-    "help": "Additional configuration can be used to provide additional properties to the config struct. A JSON-encoded string is expected.",
+    "help": "This field can be used to provide additional settings. The available settings are described in adless.net/get-started. A JSON-encoded string is expected.",
     "valueValidators": [
       {
         "type": "REGEX",
