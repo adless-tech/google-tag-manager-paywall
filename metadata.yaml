@@ -1,5 +1,7 @@
 homepage: "https://adless.net"
-documentation: "https://adless.net/get-started"
+documentation: "https://adless.net/get-started/gtm"
 versions:
+  - sha: 98758caee9ca6294ccced2420ab91917e039406c
+    changeNotes: Added support for additional configuration.
   - sha: ad02d7a1711d935be13ee3b9f429689928e2101d
     changeNotes: Initial release.
